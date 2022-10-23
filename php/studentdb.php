@@ -25,7 +25,7 @@
     <title>Student DB Display</title>
 </head>
     <header>
-      <a href="#" class="logo"><span>JU</span></a>
+      <a href="#" class="logo"><span></span></a>
 
       <ul class="navbar">
         <li><a href="#" class="active">Home</a></li>
