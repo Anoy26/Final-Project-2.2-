@@ -22,7 +22,7 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
     rel="stylesheet"
     />
-    <title>Registration DB Display</title>
+    <title>Registration Database</title>
 </head>
     <header>
       <a href="#" class="logo"><span>JU</span></a>
