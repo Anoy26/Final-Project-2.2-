@@ -1,0 +1,170 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-size: cover;
+    background-image: url('img/ju.jpg');
+    padding: 0 10px;
+}
+.container
+{
+    max-width: 500px;
+    width: 100%;
+    background-color: rgb(174, 183, 203);
+    margin: 20px auto;
+    padding: 30px;
+    /*box-shadow: 5px 5px 5px 5px #cb9fc0;*/
+}
+.container .title
+{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #4b414f;
+    text-transform: uppercase;
+    text-align: center;
+}
+.container .form
+{
+    width: 100%;
+}
+.container .form .input_feild 
+{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.container .form .input_feild level
+{
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: white;
+}
+.container .form .input_feild .input,
+.container .form .input_feild textarea
+{
+    width: 100%;
+    outline: none;
+    border: 1px solid #D071F9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+}
+.container .form .input_feild textarea
+{
+    resize: none;
+    height: 70px;
+}
+.container .form .input_feild .custom_select
+{
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+.container .form .input_feild .custom_select select
+{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #D071F9;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+.container .form .input_feild .custom_select::before
+{
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 0;
+    border: 8px solid black;
+    border-color: rgb(159, 51, 161) transparent transparent transparent;
+    pointer-events: none;
+}
+.container .form .input_feild .input:focus,
+.container .form .input_feild .textarea:focus,
+.container .form .input_feild .select:focus
+{
+    border: 1px solid purple;
+}
+.container .form .input_feild p
+{
+    font-size: 14px;
+    color: black;
+}
+.container .form .input_feild .check
+{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+.container .form .input_feild .check input[type="checkbox"]
+{
+    padding: absolute;
+    top: 0;
+    left: 0;
+}
+/*.container .form .input_feild .check .checkmark
+{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #D071F9;
+    display: block;
+    position: absolute;
+    background: green;
+}*/
+.container .form .input_feild .check .checkmark::before
+{
+    position: absolute;
+    top: 1;
+    left: 2;
+    width: 5px;
+    height: 2px;
+    border: 2px solid #D071F9;
+    border-color: transparent transparent white white;
+    transform: rotate(-45deg);
+}
+.container .form .input_feild .btn
+{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0;
+    background: #7d3c9a;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+.container .form .input_feild:last-child
+{
+    margin-bottom: 0;
+}
+.container .form .input_feild .btn:hover
+{
+    background: rgb(79, 12, 172);
+}
+@media (max-width: 420px)
+{
+    .container .form .input_feild 
+    {
+       flex-direction: column;
+       align-items: flex-start;
+    }
+    .container .form .input_feild level
+    {
+        margin-top: 5px;
+    }
+    .container .form .input_feild .terms
+    {
+        flex-direction: row;
+    }
+}
