@@ -19,7 +19,7 @@ error_reporting(0);
 //print_r(echo $_Files["uploadfile"]);
 $filename =  $_FILES["uploadfile"]["name"];
 $tempname =  $_FILES["uploadfile"]["tmp_name"];
-$folder = "images/".$filename;
+$folder = "../images/".$filename;
 //echo $folder;
 move_uploaded_file($tempname,$folder);
 $query = "INSERT INTO stu_img VALUES('$folder')";
