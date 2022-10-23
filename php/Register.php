@@ -197,6 +197,8 @@
                 <script>
                 window.location.assign('profile.php');
                 alert('Registered Successfully');
+                alert('Next alert provide your Exam_ID. Please save it');
+                alert('$id');
                 </script>
             ";
             
