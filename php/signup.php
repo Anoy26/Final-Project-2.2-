@@ -202,6 +202,8 @@
                 <script>
                 window.location.assign('login.php');
                 alert('Signup Successfully');
+                alert('Next alert provide you an User_ID. Please save the User_ID to log in by taking SS or Copy that');
+                alert('$User_id');
                 </script>
             ";
         }
