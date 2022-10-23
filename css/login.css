@@ -1,0 +1,156 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-size: cover;
+    background-image: url('img/JU_004.jpg');
+    padding: 0 10px;
+}
+
+.center
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: rgb(47, 70, 118);
+    border-radius: 5px;
+}
+.center h2{
+    
+    text-align: center;
+    color: black;
+    font-size: 26px;
+    
+    
+}
+.form
+{
+    padding-bottom: 15px;
+    margin: 0 20px;
+    text-align: center;
+}
+.input-field
+{
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    border: 2px rgb(236, 151, 209);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin:7px 0;
+}
+.btn
+{
+    width: 50%;
+    height:50px;
+    background-color: rgb(174, 183, 203);
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 7px 0;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+.btn:hover
+{
+    
+    background-color: purple;
+}
+.link
+{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+@media(max-width:420px)
+{
+    .center
+    {
+        width:88%;
+    }
+}
+/*#login-form
+{
+    display: none;
+}
+.form
+{
+    width:380px;
+	height:480px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #797171;
+    font-size: 22px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin: 2px auto;
+    padding: 8px;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+/*.req-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+} */
+/*#login
+{
+	left:50px;
+}
+#login input
+{
+	color:white;
+	font-size:15;
+}*/

@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+:root {
+  --blue: #2980b9;
+  --black: #333;
+  --white: #fff;
+  --light-color: #777;
+  --light-bg: #eee;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: none;
+  transition: all 0.2s linear;
+}
+
+body{
+  height: 100vh;
+
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  background: var(--blue);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--white);
+  border-radius: 50px;
+}
+
+.title {
+  font-size: 25px;
+  color: var(--blue);
+  margin-bottom: 15px;
+}
+
+.btn {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 5px;
+  background: var(--blue);
+  color: var(--white);
+  font-size: 17px;
+  box-shadow: var(--box-shadow);
+}
+
+.btn:hover {
+  background: var(--black);
+}
+
+.container {
+  padding: 100px 10%;
+  background: linear-gradient(45deg, deeppink, var(--blue));
+  display:flex;
+  height: 100vh;
+}
+
+.container .profile {
+  flex: 1 1 400px;
+  background: var(--white);
+  padding: 20px 30px;
+  text-align: center;
+  position: sticky;
+  top: 20px;
+  left: 0;
+  border-right: 2px solid var(--black);
+  align-self: flex-start;
+  height: 4200px;
+}
+span {
+  font-family: sans-serif;
+  color: #555;
+}
+.container .profile img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid var(--black);
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.container .profile h3 {
+  color: var(--black);
+  font-size: 20px;
+}
+
+.container .profile p {
+  color: var(--blue);
+  padding: 5px 0;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.container .profile .share {
+  margin: 10px 0;
+}
+
+.container .profile .share a {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 50%;
+  color: var(--black);
+  background: var(--light-bg);
+}
+
+.container .profile .share a:hover {
+  background: var(--blue);
+  color: var(--white);
+  box-shadow: var(--box-shadow);
+}
+
+.container .information {
+  flex: 1 1 1000px;
+  background: var(--white);
+  padding: 20px 30px;
+  height: 340px;
+}
+
+.container .information .about p {
+  font-size: 17px;
+  line-height: 2;
+  padding-bottom: 10px;
+  color: var(--light-color);
+}
+
+.container .information .about .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.container .information .about .box-container .box {
+  flex: 1 1 250px;
+}
+
+.container .information .about .box-container .box h3 {
+  font-size: 15px;
+  padding: 10px 0;
+  color: var(--black);
+}
+
+.container .information .about .box-container .box h3 span {
+  color: var(--light-color);
+}
