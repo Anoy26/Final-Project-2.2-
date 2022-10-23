@@ -29,7 +29,7 @@
 
       <ul class="navbar">
         <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">Addmission</a></li>
+        <li><a href="#">Addmission ju</a></li>
         <li><a href="Adminprofile.php">Profile</a></li>
       </ul>
 
