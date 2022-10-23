@@ -32,8 +32,8 @@
       <a href="#" class="logo"><span>JU</span></a>
 
       <ul class="navbar">
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">Addmission</a></li>
+        <li><a href="../Web html/index.html" class="active">Home</a></li>
+        <li><a href="../admission.html">Addmission</a></li>
       </ul>
 
       <div class="main">
@@ -62,20 +62,7 @@
                     <input type="text" class="input" name="name" required>
                 </div>
 
-                <!-- <div class="input_feild">
-                    <level>Registration Number</level>
-                    <input type="text" class="input" name="regno" required>
-                </div>
-
-                <div class="input_feild">
-                    <level>SSC Roll</level>
-                    <input type="text" class="input" name="ssc" required>
-                </div>
-
-                <div class="input_feild">
-                    <level>HSC Roll</level>
-                    <input type="text" class="input" name="hsc" required>
-                </div> -->
+                
 
                 <div class="input_feild">
                     <level>Parmanent Address</level>
@@ -98,26 +85,7 @@
                     </div>
                 </div>
 
-                <!-- <div class="input_feild">
-                    <level>Unit</level>
-                    <div class="custom_select">
-                        <select name="unit" required>
-                            <option value="">Select</option>
-                            <option value="A">A</option>
-                            <option value="B">B</option>
-                            <option value="C">C</option>
-                            <option value="D">D</option>
-                            <option value="E">E</option>
-                            <option value="H">H</option>
-                        </select>
-                    </div>
-                </div> -->
-
-                <!-- <div class="input_feild">
-                    <level>Transaction Number</level>
-                    <input type="text" class="input" name="trstno" required>
-                </div> -->
-
+                
                 <div class="input_feild">
                     <level>Phone Number</level>
                     <input type="text" class="input" name="phone" required>

@@ -28,8 +28,8 @@
       <a href="#" class="logo"><span>JU</span></a>
 
       <ul class="navbar">
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">Addmission</a></li>
+        <li><a href="home.php" class="active">Home</a></li>
+        <li><a href="admission.php">Addmission</a></li>
         <li><a href="Adminprofile.php">Profile</a></li>
       </ul>
 
