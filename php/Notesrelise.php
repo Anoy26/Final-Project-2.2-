@@ -3327,23 +3327,6 @@ echo "<h2>The year, <font color="blue">$year</font> is leap year.</h2>";
 else
 
 
-{
-echo "<h2>The year, <font color="red">$year</font> is not leap year.</h2>";
-}
-#Define a function to check the leap year
-function isLeap($year)
-{
-
-
-
-
-#Find out the year is leap or not
-return (date('L', mktime(0, 0, 0, 1, 1, $year))==1);
-}
-
-
-
-
 
 */
 ?>
