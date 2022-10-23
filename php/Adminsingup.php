@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Sign Up</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
 
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
@@ -41,7 +41,7 @@
         <div class="bx bx-menu" id="menu-icon"></div>
       </div>
     </header>
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
 
     <div class="container">
         <form action="#" method="POST" enctype="multipart/form-data">
