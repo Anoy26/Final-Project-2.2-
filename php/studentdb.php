@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style2.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style2.css" />
 
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
@@ -28,8 +28,8 @@
       <a href="#" class="logo"><span>JU</span></a>
 
       <ul class="navbar">
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">Addmission</a></li>
+        <li><a href="home.php" class="active">Home</a></li>
+        <li><a href="admission.php">Addmission</a></li>
         <li><a href="Adminprofile.php">Profile</a></li>
       </ul>
 
@@ -38,7 +38,7 @@
         <div class="bx bx-menu" id="menu-icon"></div>
       </div>
     </header>
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
 <?php
     include("connection.php");
     error_reporting(E_ERROR | E_PARSE);

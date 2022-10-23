@@ -31,8 +31,8 @@
       <a href="#" class="logo"><span>JU</span></a>
 
       <ul class="navbar">
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">Addmission</a></li>
+        <li><a href="../Web html/index.html" class="active">Home</a></li>
+        <li><a href="../admission.html">Addmission</a></li>
       </ul>
 
       <div class="main">
