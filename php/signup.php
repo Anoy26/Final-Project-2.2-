@@ -42,7 +42,7 @@
         <div class="bx bx-menu" id="menu-icon"></div>
       </div>
     </header>
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
     <div class="container">
         <form action="#" method="POST" enctype="multipart/form-data">
 
