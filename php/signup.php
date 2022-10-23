@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
 
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
@@ -34,20 +34,15 @@
       <ul class="navbar">
         <li><a href="#" class="active">Home</a></li>
         <li><a href="#">Addmission</a></li>
-        <!-- <li><a href="#">Profile</a></li> -->
-        <!-- <li><a href="#">Blog</a></li> -->
         <li><a href="#">Contact</a></li>
       </ul>
 
       <div class="main">
         <a href="login.php" class="user"><i class="ri-user-fill"></i>Sign In</a>
-        <!-- <a href="#">Register</a> -->
         <div class="bx bx-menu" id="menu-icon"></div>
       </div>
     </header>
-
-    <!--js link--->
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
     <div class="container">
         <form action="#" method="POST" enctype="multipart/form-data">
 
@@ -156,7 +151,7 @@
 
         $filename =  $_FILES["uploadfile"]["name"];
         $tempname =  $_FILES["uploadfile"]["tmp_name"];
-        $folder = "images/".$filename;
+        $folder = "../images/".$filename;
         move_uploaded_file($tempname,$folder);
 
         $name  = $_POST['name'];

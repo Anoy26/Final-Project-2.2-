@@ -8,13 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Log IN</title>
-    <link rel="stylesheet" type="text/css" href="css/style3.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style3.css" />
 
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
     rel="stylesheet"
     />
-
     <link
     rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
@@ -43,7 +42,7 @@
     </header>
 
    
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
         <div class="center">
             <h2>LogIn Here</h2>
             <form action="#" method="POST">

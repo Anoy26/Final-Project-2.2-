@@ -17,7 +17,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <link rel="stylesheet" type="text/css" href="css/style5.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style5.css" />
 
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
@@ -53,7 +53,7 @@
       
     </header>
 
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
 
     <div class="container">
 
