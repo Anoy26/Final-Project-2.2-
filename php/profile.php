@@ -43,7 +43,7 @@
 
       <ul class="navbar">
         <li><a href="home2.php" class="active">Home</a></li>
-        <li><a href="admission2.php">Addmission</a></li>
+        <li><a href="admission2.php">Admission</a></li>
       </ul>
 
       <div class="main">
@@ -62,7 +62,7 @@
             <div class="buttons">
                 <a href ="admit.php" class="btn">Download Admit</a>
                 <div>
-                    <a href="../Admission/Register.php" class="btn">Apply</a>
+                    <a href="Register.php" class="btn">Apply</a>
                     <a href="logout.php" class="btn">logout</a>
                 </div>
             </div>

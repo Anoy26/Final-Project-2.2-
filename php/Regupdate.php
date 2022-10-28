@@ -39,7 +39,7 @@
 
       <ul class="navbar">
         <li><a href="home.php">Home</a></li>
-        <li><a href="admission.php">Addmission</a></li>
+        <li><a href="admission.php">Admission</a></li>
         <li><a href="Adminprofile.php">Profile</a></li>
       </ul>
 

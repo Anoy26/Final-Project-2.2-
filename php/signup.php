@@ -33,7 +33,7 @@
 
       <ul class="navbar">
         <li><a href="../Web html/index.html" class="active">Home</a></li>
-        <li><a href="../admission.html">Addmission</a></li>
+        <li><a href="../admission.html">Admission</a></li>
         <li><a href="../Web html/contact.html">Contact</a></li>
       </ul>
 

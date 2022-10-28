@@ -40,7 +40,7 @@
 
       <ul class="navbar">
         <li><a href="../php/home2.php" class="active">Home</a></li>
-        <li><a href="../php/admission2.php">Addmission</a></li>
+        <li><a href="../php/admission2.php">Admission</a></li>
         <li><a href="../php/profile.php">Profile</a></li>
       </ul>
 
@@ -152,9 +152,9 @@
 </body>
 </html>
 <?php
-//include('vendor/autoload.php');
-include '../php/connection.php';
-include('phpqrcode/qrlib.php');
+
+include 'php/connection.php';
+include('../phpqrcode/qrlib.php');
 if(isset($_POST['register']))
     { 
         //aigula holo ager onno tabler er stored data. $user hoilo User_ID
@@ -201,32 +201,20 @@ if(isset($_POST['register']))
          $text.="Unit: ".$unit."\n";
          $text.="Transaction ID: ".$tid."\n";
 
-         $path='picture/';
-         $pathh='imgroll/';
+         $path='../Studentqr/';
+         $pathh='../Admitqr/';
          $file=$path.$id.'.png';
          $fiile=$pathh.$id.'.png';
          QRcode::png($text,$file);
          QRcode::png($user,$fiile);
 
-//          echo "<center><h1> Admit Card</h1></center>";
-// echo '<img class="floatleft" src="'.$picture.'" width="100" height="200"/>';
-
-// echo "<center>Your QR Code is here</center>";
-// echo "<center><img src='".$file."'></center>";
-
-// echo "<h1 class='float'>Roll No: $sroll</h1>";
-
-// echo "<center>QR code for attendance</center>";
-// echo "<center><img src='".$fiile."'></center>";
-
-         $que="INSERT INTO qr VALUES('$sroll','$file','$fiile')";
+         $que="INSERT INTO qr VALUES('$id','$file','$fiile')";
          $daata = mysqli_query($conn, $que);
 
         $query="INSERT INTO registration_info (User_ID, Exam_ID, Reg_NO, SSC_Roll, SSC_Board, HSC_Roll, HSC_Board, Unit, Transaction) VALUES ('$user', '$id', '$regn', '$sroll', '$s_board', '$hroll', '$h_board', '$unit', '$tid')";
         $data=mysqli_query($conn, $query);
 
-        // $query = "INSERT INTO student (Exam_ID, Std_img, Name, Reg_NO, SSC_Roll,  HSC_Roll, Par_Add, Pre_Add, Gender, Unit, Trsc_ID, Phone, Email) VALUES('$id','$folder', '$name','$regn','$sroll', '$hroll','$par','$pst','$gen','$unit','$tid','$phn','$email')";
-        // $data = mysqli_query($conn, $query);
+        
 
         if($data)
         {

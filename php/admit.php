@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/style2.css" />
+    <link rel="stylesheet" type="text/css" href="../css/admit.css" />
 
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
@@ -29,7 +29,7 @@
 
       <ul class="navbar">
         <li><a href="home2.php" class="active">Home</a></li>
-        <li><a href="admission2.php">Addmission</a></li>
+        <li><a href="admission2.php">Admission</a></li>
         <li><a href="profile.php">Profile</a></li>
       </ul>
 
@@ -57,7 +57,7 @@
         <tr>
             <th width="10%">Unit</th>
             <th width="10%">Exam_Roll</th>
-            <th width="30%">Admit Card</th>
+            <th width="15%">Admit Card</th>
         </tr>
 
 
