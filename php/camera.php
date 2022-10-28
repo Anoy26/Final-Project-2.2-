@@ -1,5 +1,5 @@
 <?php
- include '../php/connection.php';
+ include 'php/connection.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -44,8 +44,8 @@
 
  if(isset($_POST['text'])){    
     $text=$_POST['text'];
-    $ssql="insert into attendance values('$text','P')";;
-    $qquery=mysqli_query($conn, $ssql);
+    // $ssql="insert into attendance values('$text','P')";;
+    // $qquery=mysqli_query($conn, $ssql);
     echo 'Changed';
  }
 ?>
