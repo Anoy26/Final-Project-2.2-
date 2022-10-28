@@ -14,8 +14,9 @@
 }
 body
 {
-    background-size: cover;
-    background-image: url('../img/ju.jpg');
+    /* background-size: cover;
+    background-image: url('../img/ju.jpg'); */
+	background: #fff;
     padding: 0 10px;
 }
 header{
