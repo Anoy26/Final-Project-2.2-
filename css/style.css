@@ -14,8 +14,9 @@
 }
 body
 {
-    background-size: cover;
-    background-image: url('../img/ju.jpg');
+    /* background-size: cover;
+    background-image: url('../img/ju.jpg'); */
+    background: #fff;
     padding: 0 10px;
 }
 header{
@@ -27,7 +28,7 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background:blueviolet;
+	background:rgb(43, 223, 226);
 	padding: 28px 12%;
 	transition: all .50s ease;
 }
