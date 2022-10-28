@@ -62,7 +62,7 @@
             <div class="buttons">
                 <a href ="admit.php" class="btn">Download Admit</a>
                 <div>
-                    <a href="Register.php" class="btn">Apply</a>
+                    <a href="../Admission/Register.php" class="btn">Apply</a>
                     <a href="logout.php" class="btn">logout</a>
                 </div>
             </div>

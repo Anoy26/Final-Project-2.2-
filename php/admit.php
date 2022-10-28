@@ -67,7 +67,7 @@
             echo "<tr>
                     <td>".$result[Unit]."</td>
                     <td>".$result[Exam_ID]."</td>
-                    <td>Download</td>
+                    <td><a href='admitcard.php?user=$result[Exam_ID]'> <input type='submit' value='Download' class='Update'> </a></td>
                 </tr>
                 ";
         }
