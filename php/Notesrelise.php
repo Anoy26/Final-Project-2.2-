@@ -65,7 +65,7 @@ href="usr/share/git/ReleaseNotes.css">
 <li>When pushing via the <code>git://</code> protocol, Git for Windows may hang indefinitely. The last console output in this case is typically <code>Writing objects: 100%</code>. Until issue <a href="https://github.com/git-for-windows/git/issues/907">#907</a> is addressed, run this command once as a work-around: <code>git config sendpack.sideband false</code>.</li>
 <li><p>Git for Windows executables linked to <code>msys-2.0.dll</code> are not compatible with Mandatory ASLR and may crash if system-wide Mandatory ASLR is enabled in Windows Exploit protection. A workaround is to disable ASLR for all executables in <code>C:\Program Files\Git\usr\bin</code>, run in administrator powershell (replace <code>$_.Name</code> with <code>$_</code> to use full path to executable instead of name):</p>
 
-<blockquote>
+<blockquote> g
   <p><code>Get-Item -Path "C:\Program Files\Git\usr\bin\*.exe" | %{ Set-ProcessMitigation -Name $_.Name -Disable ForceRelocateImages }</code></p>
 </blockquote>
 
