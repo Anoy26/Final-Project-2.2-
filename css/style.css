@@ -14,8 +14,8 @@
 }
 body
 {
-    background-size: cover;
-    background-image: url('../img/ju.jpg');
+    /* background-size: cover;
+    background-image: url('../img/ju.jpg'); */
     /* background: #fff; */
     padding: 0 10px;
 }
@@ -28,7 +28,7 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background:rgb(33, 84, 85);
+	background:rgb(67, 240, 243);
 	padding: 28px 12%;
 	transition: all .50s ease;
 }
